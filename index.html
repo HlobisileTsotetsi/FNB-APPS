@@ -1,30 +1,21 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="style.css">
+<head>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 id="heading1"></h1>
-        <p id="paragraph1"></p>
-        <p id="paragraph2"></p>
-
-        <script>
-            var text1;
-            var text2;
-            var text3;
-
-            var numA = 7;
-            var numB = 10;
-
-            text1="Hello Everyone, how are you this morning?";
-            text2="I like JavaScript";
-            text3=" JS is fun";
-
-            document.getElementById("heading1").innerHTML=(text1);
-            document.getElementById("paragraph1").innerHTML=(text2 +text3);
-            document.getElementById("paragraph2").innerHTML=(numA + "x" + numB + " =" + numA * numB);
-            
-            
-            
-        </script>
+        <div id="menu">
+            <a href="#">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="gallery">
+            <a href="avenger-1.html"><img src="images/avengers_01.jpg"/></a>
+            <a href="avenger-2.html"><img src="images/avengers_02.jpg"/></a>
+            <a href="avenger-3.html"><img src="images/avengers_03.jpg"/></a>
+            <a href="avenger-4.html"><img src="images/avengers_04.jpg"/></a>
+            <a href="avenger-5.html"><img src="images/avengers_05.jpg"/></a>
+            <a href="avenger-6.html"><img src="images/avengers_06.jpg"/></a>
+        </div>
     </body>
 </html>
